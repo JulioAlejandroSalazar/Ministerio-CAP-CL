@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8B13285-6109-2E4E-780A-F4CC56368988" name="Turno">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:53:26 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTurno" id="B37464F5-3277-36E8-A710-34FFA8FA22A6">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:53:26 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProfesor" id="6DE7F7C3-9F8C-C52D-9668-E4897097A8A1">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:53:26 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAcademia" id="C3A7D3DF-8EE6-EEDE-6BFF-D61706DD443F">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:53:26 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horario" id="DB58DEC4-9977-A629-E709-ACFDD496DD49">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:53:26 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAcademia1" id="0D007AD1-FBFF-9344-F772-E394178DCAEA">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:56:50 UTC</createdTime>
+<generatorID>82A8B6A4-6F15-ED75-5BF3-EAFC0A6E968C</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<referedAttribute>28BDD76A-7F5B-83C6-FB3D-6DFAD4BAC601</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProfesor1" id="B3FBB80E-B947-72A4-CF14-FE48B017CD6E">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:57:26 UTC</createdTime>
+<generatorID>B5420A34-B6D4-378C-BF97-A6C51CFACEFD</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<referedAttribute>926DF86C-1605-E88B-51CA-571DFDFF0DCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA0FBB12-5BEA-574A-461F-F1B7F26B3204" name="Municipalidad PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:53:26 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B37464F5-3277-36E8-A710-34FFA8FA22A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

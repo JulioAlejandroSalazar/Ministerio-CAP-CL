@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A412A1F0-1FBE-087A-F1A5-E0D75E355B8C" name="Turno">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>B8B13285-6109-2E4E-780A-F4CC56368988</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTurno" id="72EA79E8-CE60-6885-463E-BC1040891CF3">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>B37464F5-3277-36E8-A710-34FFA8FA22A6</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idProfesor" id="770AF435-AAA2-7E2C-8CED-C5A259547293">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>6DE7F7C3-9F8C-C52D-9668-E4897097A8A1</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idAcademia" id="46E05286-3349-7629-4DAA-AA1C72512062">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>C3A7D3DF-8EE6-EEDE-6BFF-D61706DD443F</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario" id="3309BB59-31F5-D6E9-63F3-0B1B72984C5F">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>DB58DEC4-9977-A629-E709-ACFDD496DD49</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Academia_idAcademia" id="41EA0AD4-E30D-8F14-32F7-B0B9332249BA">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>0D007AD1-FBFF-9344-F772-E394178DCAEA</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76B45FA5-65F5-AD64-5787-759C55A4B24D" referredColumn="BCBC7D10-DB93-66A4-FB39-8DF3F2E45F8D"/>
+</associations>
+</Column>
+<Column name="Profesor_idProfesor" id="E72643C7-AD87-8773-3F5E-1E0B3C869D94">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>B3FBB80E-B947-72A4-CF14-FE48B017CD6E</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1117CC38-49E0-293D-B233-4305CDE43A3E" referredColumn="8A16E4C8-66D5-5428-7B92-8A49C0ADB178"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="603324C1-91E4-D251-C7CF-A7CF0D1E1439" name="Turno_PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>EA0FBB12-5BEA-574A-461F-F1B7F26B3204</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72EA79E8-CE60-6885-463E-BC1040891CF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50846668-AF44-E43A-5E94-C98A08CAE1D6" name="Turno__IDX">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B5420A34-B6D4-378C-BF97-A6C51CFACEFD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E72643C7-AD87-8773-3F5E-1E0B3C869D94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBC4566F-EFE3-07B5-490E-3E7EE17801A0" name="Turno_Academia_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>82A8B6A4-6F15-ED75-5BF3-EAFC0A6E968C</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41EA0AD4-E30D-8F14-32F7-B0B9332249BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F74BFDE-3D78-5663-667C-AFE390183303" name="Turno_Profesor_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>B5420A34-B6D4-378C-BF97-A6C51CFACEFD</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E72643C7-AD87-8773-3F5E-1E0B3C869D94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

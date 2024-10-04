@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DE6F1AA-349B-A603-EB5B-29779676B130" name="Municipalidad">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>69D46BB3-6405-75E3-B856-55D4CB3C328D</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMunicipalidad" id="450AEE6E-BBA7-B538-3D9F-AA12F80D832C">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>D006D6E0-33CB-9ACC-6273-75ADD4BFAEAC</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A3A2CB8A-4EBB-8FD1-E342-D50DB13537C3">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>9A564344-979C-F142-8ADB-4CBEFDDDEAD8</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="71BA83E5-6421-60A4-A578-82EF16E7CA1A">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>2563253D-88BA-86BD-E457-518FE2080676</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2C6C089-3F1D-82F4-4A54-0DBD6F47FDF9" name="Municipalidad_PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>143D8CD4-2303-38D0-EABB-F12F481629CF</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="450AEE6E-BBA7-B538-3D9F-AA12F80D832C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

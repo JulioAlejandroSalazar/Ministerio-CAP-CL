@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="961982DD-3D34-6888-D697-1D73A6F3DE26" name="Academia">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>E5137574-1831-3E22-1EA7-67FD0703DB32</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAcademia" id="BCBC7D10-DB93-66A4-FB39-8DF3F2E45F8D">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>28BDD76A-7F5B-83C6-FB3D-6DFAD4BAC601</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="78F7DEDE-AB2E-62A8-19C4-EB77ECD3E577">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>FA0FDBAC-C3A4-4A15-76A5-8C7ED4E7B8D6</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="FA5AB733-7D17-B0A7-17E3-9170B4D2E846">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>495408CB-BA07-46D4-D7FD-C86782F7EE5E</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="0E7DF862-A87D-4AC8-492B-7A6EDA3A2437">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>08C430FD-6E7A-A011-9E9C-1A401B90F6D9</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Municipalidad_idMunicipalidad" id="DE673A65-F237-F994-2CC3-50990D7B2243">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>4C9D0B92-70DD-15BF-2303-BE1D1AD280C6</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5DCA539-880C-457D-EB73-37AEDD7B2271" referredColumn="450AEE6E-BBA7-B538-3D9F-AA12F80D832C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="293AFDFC-B6B7-8278-7BC2-BCB200DAC440" name="Academia_PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>0258D989-3E06-84F0-9CCB-6F03CB00E7FB</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCBC7D10-DB93-66A4-FB39-8DF3F2E45F8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDDFAE13-C8CF-916D-E1B1-4B9023E87FFA" name="Academia_Municipalidad_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>AE1BC742-C15A-CFFA-B82C-3D9FF08E1904</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE673A65-F237-F994-2CC3-50990D7B2243"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

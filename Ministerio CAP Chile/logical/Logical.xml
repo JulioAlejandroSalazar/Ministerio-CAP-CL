@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1C6C0344-963E-0AAB-167A-2C5DE50F51AE" mainViewID="AAD0B998-1F2B-E051-BDDF-757F6165F969">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:46:09 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A71ED7D-A078-E45D-1ED1-B6FD47388835" name="Profesor">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>6726B513-013C-161F-32A3-F786C8259E38</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProfesor" id="8A16E4C8-66D5-5428-7B92-8A49C0ADB178">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>926DF86C-1605-E88B-51CA-571DFDFF0DCE</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C5FDEFB7-54D4-653B-A7A6-6CD12289F7B6">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>A245BD4F-B2B3-D344-4BC4-4F6BC3B08360</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="1ABF10C1-48E1-83C1-46C4-9448071C8570">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>EDDF98EA-60EE-4D30-B8B1-FEE277AC1297</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Academia_idAcademia" id="1E5935D3-0AA0-6FB4-3CF1-F7F10791C747">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>436E6D9F-A1C0-4B81-6B21-D71DC9EE99A1</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C1C382F-EFD3-36BA-6A9E-3E7CB3A94DEC" referredColumn="BCBC7D10-DB93-66A4-FB39-8DF3F2E45F8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7A1D1FE-CB4C-E665-2597-B00FC0D46622" name="Profesor_PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>8123EF81-36F6-42E6-82CA-F8ECB21D427D</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A16E4C8-66D5-5428-7B92-8A49C0ADB178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5347B03B-1327-D42D-FD76-AC84F97FDA81" name="Profesor_Academia_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>AECB705C-CD31-22B2-3B61-B5732EB8224E</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E5935D3-0AA0-6FB4-3CF1-F7F10791C747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

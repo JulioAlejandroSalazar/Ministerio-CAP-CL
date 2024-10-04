@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AcademiaProfesor" directorySegmentName="seg_0" id="AECB705C-CD31-22B2-3B61-B5732EB8224E">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:56:58 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<sourcePk>0258D989-3E06-84F0-9CCB-6F03CB00E7FB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5137574-1831-3E22-1EA7-67FD0703DB32</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6726B513-013C-161F-32A3-F786C8259E38</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

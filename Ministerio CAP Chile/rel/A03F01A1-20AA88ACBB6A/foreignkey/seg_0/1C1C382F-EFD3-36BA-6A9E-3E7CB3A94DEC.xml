@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C1C382F-EFD3-36BA-6A9E-3E7CB3A94DEC" containerWithKeyObject="2A71ED7D-A078-E45D-1ED1-B6FD47388835" localFKIndex="5347B03B-1327-D42D-FD76-AC84F97FDA81" name="Profesor_Academia_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>AECB705C-CD31-22B2-3B61-B5732EB8224E</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<referredTableLongName>Academia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>961982DD-3D34-6888-D697-1D73A6F3DE26</referredTableID>
+<keyObject>293AFDFC-B6B7-8278-7BC2-BCB200DAC440</keyObject>
+<referredKeyID>293AFDFC-B6B7-8278-7BC2-BCB200DAC440</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAcademia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

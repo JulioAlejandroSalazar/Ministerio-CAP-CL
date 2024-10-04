@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MunicipalidadAcademia" directorySegmentName="seg_0" id="AE1BC742-C15A-CFFA-B82C-3D9FF08E1904">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:56:27 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<sourcePk>143D8CD4-2303-38D0-EABB-F12F481629CF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69D46BB3-6405-75E3-B856-55D4CB3C328D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5137574-1831-3E22-1EA7-67FD0703DB32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

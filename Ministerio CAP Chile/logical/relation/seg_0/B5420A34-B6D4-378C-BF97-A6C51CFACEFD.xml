@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ProfesorTurno" directorySegmentName="seg_0" id="B5420A34-B6D4-378C-BF97-A6C51CFACEFD">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:57:26 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<engineerTo>
+<item key="A03F01A1-9BB0-64B2-DE70-20AA88ACBB6A" value="true"/>
+</engineerTo>
+<sourcePk>8123EF81-36F6-42E6-82CA-F8ECB21D427D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6726B513-013C-161F-32A3-F786C8259E38</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B8B13285-6109-2E4E-780A-F4CC56368988</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

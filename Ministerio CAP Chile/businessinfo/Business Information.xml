@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="CD56CCC8-E12E-4472-C931-A357A4606C10">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 17:46:09 UTC</createdTime>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

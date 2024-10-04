@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5DCA539-880C-457D-EB73-37AEDD7B2271" containerWithKeyObject="961982DD-3D34-6888-D697-1D73A6F3DE26" localFKIndex="FDDFAE13-C8CF-916D-E1B1-4B9023E87FFA" name="Academia_Municipalidad_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-10-03 18:00:51 UTC</createdTime>
+<generatorID>AE1BC742-C15A-CFFA-B82C-3D9FF08E1904</generatorID>
+<ownerDesignName>Ministerio CAP Chile</ownerDesignName>
+<referredTableLongName>Municipalidad</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2DE6F1AA-349B-A603-EB5B-29779676B130</referredTableID>
+<keyObject>F2C6C089-3F1D-82F4-4A54-0DBD6F47FDF9</keyObject>
+<referredKeyID>F2C6C089-3F1D-82F4-4A54-0DBD6F47FDF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idMunicipalidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
